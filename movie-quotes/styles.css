@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(70, 67, 68);
+	font-family: "Courier New"
+
+}
+
+h1 { 
+	color: rgb(211, 255, 101);
+
+
+}
+
+h2 {
+	font-variant: small-caps;
+	color: white;
+}
+
+.notes {
+
+	font-style: italic;
+}
+
+.character {
+
+	font-variant: bold;
+}
+
+.peter {
+
+	color: blue
+
+}
+
+strong {
+
+	color: rgb(211, 255, 101);
+}
+
+object {
+
+	color: white
+}
+
+element {
+	font-style: italic;
+}
