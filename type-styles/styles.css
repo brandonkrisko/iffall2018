@@ -1,0 +1,54 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.label {
+	color: gray;
+
+}
+
+.taxonomy {
+	font-size: 12px;
+	color: gray;
+}
+
+#bold {
+	font-weight: bold;
+}
+
+#italic {
+	font-style: italic;
+}
+
+#space {
+	letter-spacing: .3em;
+}
+
+#narrow {
+	letter-spacing: -.06em;
+}
+
+#underline {
+	text-decoration: underline;
+}
+
+#linethrough {
+	text-decoration: line-through;
+}
+
+#overline {
+	text-decoration: overline;
+}
+
+#uppercase {
+	text-transform: uppercase;
+}
+
+#lowercase {
+	text-transform: lowercase; 
+}
+
+#capitalize {
+	text-transform: capitalize;
+}
