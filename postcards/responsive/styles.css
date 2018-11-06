@@ -1,0 +1,67 @@
+html {
+	height: 100%;
+}
+body {
+	color: white;
+	font-family: 'Bitter', serif;
+	font-size: 2em;
+	background-image: url(https://images4.alphacoders.com/613/thumb-1920-613851.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 100%;
+	background-position: center;
+
+}
+
+a {
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	z-index: 0;
+}
+
+div {
+	margin: none;
+	padding: none;
+	border: none;
+	font-style: italic;
+}
+
+.Lana {
+	font-style: italic;
+}
+
+@media (min-width: 480px) {
+
+p {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+}
+
+@media (max-width: 480px) {
+	body {
+		background-position: -470px, 0px;
+
+	}
+
+	p {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		margin: none;
+		padding: none;
+		border: none;
+		max-width: 50%;
+		margin-top: 30%;
+		margin-left: 5%;
+		font-size: 23px;
+		max-width: 34%;
+
+	}
+}

@@ -1,0 +1,51 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	display: inline-block;
+	color: rgb(0,24,153);
+	font-family: 'Bitter', serif;
+	font-size: 2em;
+	background-image: url(https://s1.funon.cc/img/orig/201702/09/589cc468b5fad.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	min-height: 100%;
+
+}
+
+a {
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	z-index: 0;
+}
+
+.Lana {
+	font-style: italic;
+}
+
+p {
+	margin-left: 5%;
+	margin-top: 18%;
+}
+
+@media (max-width: 565px) {
+	body {
+		background-position: -250px, 0px, -50px, 0px;
+
+	}
+
+	p {
+		margin-left: 0%;
+		position: absolute;
+		bottom: 0px;
+		left: 5px;
+		max-width: 80%;
+		font-size: 14px;
+	}
+}
