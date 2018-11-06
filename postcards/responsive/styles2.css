@@ -1,0 +1,64 @@
+html {
+	min-height: 100%;
+}
+body {
+	display: inline-block;
+	color: black;
+	font-family: 'Bitter', serif;
+	font-size: 2em;
+	background-image: url(http://www.mendaily.com/wp-content/uploads/2012/11/Lana-Del-Rey-HM-Winter-2012-9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	min-height: 100%;
+
+}
+
+a {
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	z-index: 0;
+}
+
+.Lana {
+	font-style: italic;
+}
+
+@media (min-width: 480px) {
+	p {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+}
+
+@media (max-width: 875px) {
+	body {
+		background-position: -350px;
+	}
+}
+@media (max-width: 480px) {
+	body {
+		background-position: -600px, 0px;
+	}
+
+	p {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		margin: none;
+		padding: none;
+		border: none;
+		max-width: 50%;
+		margin-left: 5%;
+		font-size: 23px;
+		max-width: 100%;
+		margin-top: 5%;
+	}
+}
+
+
