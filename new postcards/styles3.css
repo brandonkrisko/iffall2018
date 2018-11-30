@@ -1,0 +1,74 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	display: inline-block;
+	color: white;
+	font-family: 'Bitter', serif;
+	font-size: 45px;
+	background-image: url(lana2gradient.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	min-height: 100%;
+
+}
+
+a {
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	z-index: 0;
+}
+
+.Lana {
+	font-style: italic;
+}
+
+p {
+	
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+@media (min-width: 360px) {
+	body {
+		background-position: -250px;
+	}
+}
+@media (min-width: 375px) {
+	body {
+		background-position: -250px;
+
+	}
+
+	p {
+		margin-left: 0%;
+		position: absolute;
+		bottom: 0px;
+		font-size: 30px;
+		text-align: center;
+	}
+}
+
+@media (min-width: 731px) {
+	body {
+		background-position: 0px;
+
+}
+
+	p {
+		margin-left: 10%;
+	}
+
+@media (min-width: 1000px) {
+
+	p {
+		margin-left: 20%;
+	}
+}
